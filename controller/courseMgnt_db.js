@@ -7,7 +7,8 @@ function createCourse(req, res) {
     else
         Course.count({}, (err, count) => {
             if(err)
-                console.log('count failed!');
+                return res.status(500)
+                          .send('Something wrong with the server');
             else
                 id = count + 1;
         });

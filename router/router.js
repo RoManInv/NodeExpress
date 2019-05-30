@@ -1,4 +1,4 @@
-const courseMgnt = require('../controller/courseMgnt_test');
+const courseMgnt = require('../controller/courseMgnt_db');
 
 module.exports.createCourse = courseMgnt.createCourse;
 module.exports.updateCourse = courseMgnt.updateCourse;
