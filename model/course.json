@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "shortName": "AWT",
+        "fullName": "Advanced Web Technology"
+    },
+    {
+        "id": 2,
+        "shortName": "NIO",
+        "fullName": "Neuroinformatik und Organik Computing"
+    },
+    {
+        "id": 3,
+        "shortName": "IR",
+        "fullName": "Information Retrieval"
+    }
+]
