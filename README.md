@@ -30,11 +30,18 @@ If you need to reset the data, this should also help.
 ## API Reference
 
 `GET /` redirect to `GET /api/courses`
+
 `GET /api/courses` show all the courses
+
 `GET /api/courses/:id` show course with specific id
+
 `PUT /api/courses/:id` update the course with specific id
+
 `POST /api/courses` create a new course
+
 `DELETE /api/courses/:id` delect the course with specific id
+
 `PUT /api/database` reset database
+
 
   [1]: https://www.getpostman.com/downloads/
